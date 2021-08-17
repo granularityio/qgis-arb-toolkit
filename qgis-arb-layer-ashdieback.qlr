@@ -1,0 +1,701 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+    <customproperties>
+      <Option/>
+    </customproperties>
+    <layer-tree-layer patch_size="-1,-1" checked="Qt::Checked" expanded="1" id="AshDieback_7f63bf17_66bd_4bf2_807f_6098386c41da" providerKey="ogr" legend_split_behavior="0" name="AshDieback" source="./qgis-arb-survey/AshDieback.gpkg|layername=AshDieback" legend_exp="">
+      <customproperties>
+        <Option type="Map">
+          <Option type="invalid" name="expandedLegendNodes"/>
+        </Option>
+      </customproperties>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer styleCategories="AllStyleCategories" simplifyAlgorithm="0" readOnly="0" geometry="Point" maxScale="0" refreshOnNotifyMessage="" simplifyDrawingHints="0" wkbType="Point" minScale="100000000" simplifyMaxScale="1" labelsEnabled="0" type="vector" autoRefreshEnabled="0" simplifyDrawingTol="1" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshTime="0">
+      <id>AshDieback_7f63bf17_66bd_4bf2_807f_6098386c41da</id>
+      <datasource>./qgis-arb-survey/AshDieback.gpkg|layername=AshDieback</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>AshDieback</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["WGS 84 / Pseudo-Mercator",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Web mapping and visualisation."],AREA["World between 85.06°S and 85.06°N."],BBOX[-85.06,-180,85.06,180]],ID["EPSG",3857]]</wkt>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial maxy="0" maxz="0" minx="0" dimensions="2" maxx="0" miny="0" minz="0" crs=""/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal fixedDuration="0" durationUnit="min" endExpression="" mode="0" endField="" durationField="fid" accumulate="0" startField="" startExpression="" enabled="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <renderer-v2 type="singleSymbol" enableorderby="0" symbollevels="0" forceraster="0">
+        <symbols>
+          <symbol type="marker" clip_to_extent="1" name="0" force_rhr="0" alpha="1">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" name="name" value=""/>
+                <Option name="properties"/>
+                <Option type="QString" name="type" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer pass="0" class="SimpleMarker" locked="0" enabled="1">
+              <Option type="Map">
+                <Option type="QString" name="angle" value="0"/>
+                <Option type="QString" name="cap_style" value="square"/>
+                <Option type="QString" name="color" value="225,22,46,255"/>
+                <Option type="QString" name="horizontal_anchor_point" value="1"/>
+                <Option type="QString" name="joinstyle" value="bevel"/>
+                <Option type="QString" name="name" value="cross"/>
+                <Option type="QString" name="offset" value="0,0"/>
+                <Option type="QString" name="offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+                <Option type="QString" name="offset_unit" value="MM"/>
+                <Option type="QString" name="outline_color" value="35,35,35,255"/>
+                <Option type="QString" name="outline_style" value="solid"/>
+                <Option type="QString" name="outline_width" value="0.5"/>
+                <Option type="QString" name="outline_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+                <Option type="QString" name="outline_width_unit" value="MM"/>
+                <Option type="QString" name="scale_method" value="diameter"/>
+                <Option type="QString" name="size" value="4"/>
+                <Option type="QString" name="size_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+                <Option type="QString" name="size_unit" value="MM"/>
+                <Option type="QString" name="vertical_anchor_point" value="1"/>
+              </Option>
+              <prop v="0" k="angle"/>
+              <prop v="square" k="cap_style"/>
+              <prop v="225,22,46,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="cross" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.5" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="4" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+            <layer pass="0" class="SimpleMarker" locked="0" enabled="1">
+              <Option type="Map">
+                <Option type="QString" name="angle" value="0"/>
+                <Option type="QString" name="cap_style" value="square"/>
+                <Option type="QString" name="color" value="255,0,0,255"/>
+                <Option type="QString" name="horizontal_anchor_point" value="1"/>
+                <Option type="QString" name="joinstyle" value="bevel"/>
+                <Option type="QString" name="name" value="circle"/>
+                <Option type="QString" name="offset" value="0,0"/>
+                <Option type="QString" name="offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+                <Option type="QString" name="offset_unit" value="MM"/>
+                <Option type="QString" name="outline_color" value="35,35,35,255"/>
+                <Option type="QString" name="outline_style" value="solid"/>
+                <Option type="QString" name="outline_width" value="0"/>
+                <Option type="QString" name="outline_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+                <Option type="QString" name="outline_width_unit" value="MM"/>
+                <Option type="QString" name="scale_method" value="diameter"/>
+                <Option type="QString" name="size" value="2"/>
+                <Option type="QString" name="size_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+                <Option type="QString" name="size_unit" value="MM"/>
+                <Option type="QString" name="vertical_anchor_point" value="1"/>
+              </Option>
+              <prop v="0" k="angle"/>
+              <prop v="square" k="cap_style"/>
+              <prop v="255,0,0,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="2" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <Option type="Map">
+          <Option type="int" name="embeddedWidgets/count" value="0"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
+        </Option>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory diagramOrientation="Up" spacing="5" penWidth="0" minScaleDenominator="0" spacingUnitScale="3x:0,0,0,0,0,0" enabled="0" sizeType="MM" barWidth="5" backgroundColor="#ffffff" lineSizeType="MM" showAxis="1" opacity="1" direction="0" rotationOffset="270" backgroundAlpha="255" scaleBasedVisibility="0" sizeScale="3x:0,0,0,0,0,0" spacingUnit="MM" height="15" maxScaleDenominator="1e+08" scaleDependency="Area" minimumSize="0" penAlpha="255" width="15" labelPlacementMethod="XHeight" lineSizeScale="3x:0,0,0,0,0,0" penColor="#000000">
+          <fontProperties description="MS Shell Dlg 2,7.875,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute label="" color="#000000" field=""/>
+          <axisSymbol>
+            <symbol type="line" clip_to_extent="1" name="" force_rhr="0" alpha="1">
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+              <layer pass="0" class="SimpleLine" locked="0" enabled="1">
+                <Option type="Map">
+                  <Option type="QString" name="align_dash_pattern" value="0"/>
+                  <Option type="QString" name="capstyle" value="square"/>
+                  <Option type="QString" name="customdash" value="5;2"/>
+                  <Option type="QString" name="customdash_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+                  <Option type="QString" name="customdash_unit" value="MM"/>
+                  <Option type="QString" name="dash_pattern_offset" value="0"/>
+                  <Option type="QString" name="dash_pattern_offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+                  <Option type="QString" name="dash_pattern_offset_unit" value="MM"/>
+                  <Option type="QString" name="draw_inside_polygon" value="0"/>
+                  <Option type="QString" name="joinstyle" value="bevel"/>
+                  <Option type="QString" name="line_color" value="35,35,35,255"/>
+                  <Option type="QString" name="line_style" value="solid"/>
+                  <Option type="QString" name="line_width" value="0.26"/>
+                  <Option type="QString" name="line_width_unit" value="MM"/>
+                  <Option type="QString" name="offset" value="0"/>
+                  <Option type="QString" name="offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+                  <Option type="QString" name="offset_unit" value="MM"/>
+                  <Option type="QString" name="ring_filter" value="0"/>
+                  <Option type="QString" name="trim_distance_end" value="0"/>
+                  <Option type="QString" name="trim_distance_end_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+                  <Option type="QString" name="trim_distance_end_unit" value="MM"/>
+                  <Option type="QString" name="trim_distance_start" value="0"/>
+                  <Option type="QString" name="trim_distance_start_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+                  <Option type="QString" name="trim_distance_start_unit" value="MM"/>
+                  <Option type="QString" name="tweak_dash_pattern_on_corners" value="0"/>
+                  <Option type="QString" name="use_custom_dash" value="0"/>
+                  <Option type="QString" name="width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+                </Option>
+                <prop v="0" k="align_dash_pattern"/>
+                <prop v="square" k="capstyle"/>
+                <prop v="5;2" k="customdash"/>
+                <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+                <prop v="MM" k="customdash_unit"/>
+                <prop v="0" k="dash_pattern_offset"/>
+                <prop v="3x:0,0,0,0,0,0" k="dash_pattern_offset_map_unit_scale"/>
+                <prop v="MM" k="dash_pattern_offset_unit"/>
+                <prop v="0" k="draw_inside_polygon"/>
+                <prop v="bevel" k="joinstyle"/>
+                <prop v="35,35,35,255" k="line_color"/>
+                <prop v="solid" k="line_style"/>
+                <prop v="0.26" k="line_width"/>
+                <prop v="MM" k="line_width_unit"/>
+                <prop v="0" k="offset"/>
+                <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+                <prop v="MM" k="offset_unit"/>
+                <prop v="0" k="ring_filter"/>
+                <prop v="0" k="trim_distance_end"/>
+                <prop v="3x:0,0,0,0,0,0" k="trim_distance_end_map_unit_scale"/>
+                <prop v="MM" k="trim_distance_end_unit"/>
+                <prop v="0" k="trim_distance_start"/>
+                <prop v="3x:0,0,0,0,0,0" k="trim_distance_start_map_unit_scale"/>
+                <prop v="MM" k="trim_distance_start_unit"/>
+                <prop v="0" k="tweak_dash_pattern_on_corners"/>
+                <prop v="0" k="use_custom_dash"/>
+                <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+                <data_defined_properties>
+                  <Option type="Map">
+                    <Option type="QString" name="name" value=""/>
+                    <Option name="properties"/>
+                    <Option type="QString" name="type" value="collection"/>
+                  </Option>
+                </data_defined_properties>
+              </layer>
+            </symbol>
+          </axisSymbol>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings priority="0" showAll="1" linePlacementFlags="18" obstacle="0" placement="0" dist="0" zIndex="0">
+        <properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend showLabelLegend="0" type="default-vector"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field configurationFlags="None" name="fid">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="Stage">
+          <editWidget type="ValueMap">
+            <config>
+              <Option type="Map">
+                <Option type="List" name="map">
+                  <Option type="Map">
+                    <Option type="QString" name="Stage 0: 100% Healthy" value="Stage 0"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option type="QString" name="Stage 1: 99-76% Canopy Cover" value="Stage 1"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option type="QString" name="Stage 2: 75-51% Canopy Cover" value="Stage 2"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option type="QString" name="Stage 3: 50-26% Canopy Cover" value="Stage 3"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option type="QString" name="Stage 4: 25-0% Canopy Cover" value="Stage 4"/>
+                  </Option>
+                </Option>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="Age">
+          <editWidget type="ValueMap">
+            <config>
+              <Option type="Map">
+                <Option type="List" name="map">
+                  <Option type="Map">
+                    <Option type="QString" name="Sapling" value="Sapling"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option type="QString" name="Semi-mature" value="Semi-mature"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option type="QString" name="Mature" value="Mature"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option type="QString" name="Veteran" value="Veteran"/>
+                  </Option>
+                </Option>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="Type">
+          <editWidget type="ValueMap">
+            <config>
+              <Option type="Map">
+                <Option type="List" name="map">
+                  <Option type="Map">
+                    <Option type="QString" name="Single Tree" value="Single Tree"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option type="QString" name="Group" value="Group"/>
+                  </Option>
+                </Option>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="Group Size">
+          <editWidget type="Range">
+            <config>
+              <Option type="Map">
+                <Option type="bool" name="AllowNull" value="true"/>
+                <Option type="int" name="Max" value="999"/>
+                <Option type="int" name="Min" value="0"/>
+                <Option type="int" name="Precision" value="0"/>
+                <Option type="int" name="Step" value="3"/>
+                <Option type="QString" name="Style" value="SpinBox"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="Height">
+          <editWidget type="Range">
+            <config>
+              <Option type="Map">
+                <Option type="bool" name="AllowNull" value="true"/>
+                <Option type="int" name="Max" value="2147483647"/>
+                <Option type="int" name="Min" value="-2147483648"/>
+                <Option type="int" name="Precision" value="0"/>
+                <Option type="int" name="Step" value="1"/>
+                <Option type="QString" name="Style" value="SpinBox"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="Tree Management Status">
+          <editWidget type="ValueMap">
+            <config>
+              <Option type="Map">
+                <Option type="List" name="map">
+                  <Option type="Map">
+                    <Option type="QString" name="Coppice" value="Coppice"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option type="QString" name="Pollard" value="Pollard"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option type="QString" name="Maiden" value="Maiden"/>
+                  </Option>
+                </Option>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="Woodland Management Status">
+          <editWidget type="ValueMap">
+            <config>
+              <Option type="Map">
+                <Option type="List" name="map">
+                  <Option type="Map">
+                    <Option type="QString" name="Coppice" value="Coppice"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option type="QString" name="Managed" value="Managed"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option type="QString" name="Unmanaged" value="Unmanaged"/>
+                  </Option>
+                </Option>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="Location Type">
+          <editWidget type="ValueMap">
+            <config>
+              <Option type="Map">
+                <Option type="List" name="map">
+                  <Option type="Map">
+                    <Option type="QString" name="Urban" value="Urban"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option type="QString" name="Urban Edge" value="Urban Edge"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option type="QString" name="Suburban" value="Suburban"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option type="QString" name="Well Wooded" value="Well Wooded"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option type="QString" name="Rural" value="Rural"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option type="QString" name="Transport Corridor" value="Transport Corridor"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option type="QString" name="Managed Countryside" value="Managed Countryside"/>
+                  </Option>
+                  <Option type="Map">
+                    <Option type="QString" name="Brownfield Site" value="Brownfield Site"/>
+                  </Option>
+                </Option>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="Work Recommendations">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="bool" name="IsMultiline" value="true"/>
+                <Option type="bool" name="UseHtml" value="false"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="Notes">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="bool" name="IsMultiline" value="true"/>
+                <Option type="bool" name="UseHtml" value="false"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="Image">
+          <editWidget type="ExternalResource">
+            <config>
+              <Option type="Map">
+                <Option type="int" name="DocumentViewer" value="1"/>
+                <Option type="int" name="DocumentViewerHeight" value="0"/>
+                <Option type="int" name="DocumentViewerWidth" value="0"/>
+                <Option type="bool" name="FileWidget" value="true"/>
+                <Option type="bool" name="FileWidgetButton" value="true"/>
+                <Option type="QString" name="FileWidgetFilter" value=""/>
+                <Option type="Map" name="PropertyCollection">
+                  <Option type="QString" name="name" value=""/>
+                  <Option type="invalid" name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+                <Option type="int" name="RelativeStorage" value="1"/>
+                <Option type="int" name="StorageMode" value="0"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" field="fid" index="0"/>
+        <alias name="" field="Stage" index="1"/>
+        <alias name="" field="Age" index="2"/>
+        <alias name="" field="Type" index="3"/>
+        <alias name="" field="Group Size" index="4"/>
+        <alias name="" field="Height" index="5"/>
+        <alias name="" field="Tree Management Status" index="6"/>
+        <alias name="" field="Woodland Management Status" index="7"/>
+        <alias name="" field="Location Type" index="8"/>
+        <alias name="" field="Work Recommendations" index="9"/>
+        <alias name="" field="Notes" index="10"/>
+        <alias name="" field="Image" index="11"/>
+      </aliases>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="fid"/>
+        <default applyOnUpdate="0" expression="" field="Stage"/>
+        <default applyOnUpdate="0" expression="" field="Age"/>
+        <default applyOnUpdate="0" expression="" field="Type"/>
+        <default applyOnUpdate="0" expression="" field="Group Size"/>
+        <default applyOnUpdate="0" expression="" field="Height"/>
+        <default applyOnUpdate="0" expression="" field="Tree Management Status"/>
+        <default applyOnUpdate="0" expression="" field="Woodland Management Status"/>
+        <default applyOnUpdate="0" expression="" field="Location Type"/>
+        <default applyOnUpdate="0" expression="" field="Work Recommendations"/>
+        <default applyOnUpdate="0" expression="" field="Notes"/>
+        <default applyOnUpdate="0" expression="" field="Image"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="3" notnull_strength="1" field="fid" unique_strength="1" exp_strength="0"/>
+        <constraint constraints="1" notnull_strength="2" field="Stage" unique_strength="0" exp_strength="0"/>
+        <constraint constraints="1" notnull_strength="2" field="Age" unique_strength="0" exp_strength="0"/>
+        <constraint constraints="1" notnull_strength="2" field="Type" unique_strength="0" exp_strength="0"/>
+        <constraint constraints="0" notnull_strength="0" field="Group Size" unique_strength="0" exp_strength="0"/>
+        <constraint constraints="0" notnull_strength="0" field="Height" unique_strength="0" exp_strength="0"/>
+        <constraint constraints="0" notnull_strength="0" field="Tree Management Status" unique_strength="0" exp_strength="0"/>
+        <constraint constraints="0" notnull_strength="0" field="Woodland Management Status" unique_strength="0" exp_strength="0"/>
+        <constraint constraints="0" notnull_strength="0" field="Location Type" unique_strength="0" exp_strength="0"/>
+        <constraint constraints="0" notnull_strength="0" field="Work Recommendations" unique_strength="0" exp_strength="0"/>
+        <constraint constraints="0" notnull_strength="0" field="Notes" unique_strength="0" exp_strength="0"/>
+        <constraint constraints="0" notnull_strength="0" field="Image" unique_strength="0" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" field="fid" desc=""/>
+        <constraint exp="" field="Stage" desc=""/>
+        <constraint exp="" field="Age" desc=""/>
+        <constraint exp="" field="Type" desc=""/>
+        <constraint exp="" field="Group Size" desc=""/>
+        <constraint exp="" field="Height" desc=""/>
+        <constraint exp="" field="Tree Management Status" desc=""/>
+        <constraint exp="" field="Woodland Management Status" desc=""/>
+        <constraint exp="" field="Location Type" desc=""/>
+        <constraint exp="" field="Work Recommendations" desc=""/>
+        <constraint exp="" field="Notes" desc=""/>
+        <constraint exp="" field="Image" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns>
+          <column type="field" hidden="0" name="fid" width="-1"/>
+          <column type="field" hidden="0" name="Stage" width="-1"/>
+          <column type="field" hidden="0" name="Age" width="-1"/>
+          <column type="field" hidden="0" name="Type" width="-1"/>
+          <column type="field" hidden="0" name="Group Size" width="-1"/>
+          <column type="field" hidden="0" name="Height" width="-1"/>
+          <column type="field" hidden="0" name="Tree Management Status" width="-1"/>
+          <column type="field" hidden="0" name="Woodland Management Status" width="-1"/>
+          <column type="field" hidden="0" name="Location Type" width="-1"/>
+          <column type="field" hidden="0" name="Work Recommendations" width="-1"/>
+          <column type="field" hidden="0" name="Notes" width="-1"/>
+          <column type="field" hidden="0" name="Image" width="-1"/>
+          <column type="actions" hidden="1" width="-1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>tablayout</editorlayout>
+      <attributeEditorForm>
+        <attributeEditorField showLabel="1" name="fid" index="0"/>
+        <attributeEditorField showLabel="1" name="Age" index="2"/>
+        <attributeEditorField showLabel="1" name="Stage" index="1"/>
+        <attributeEditorField showLabel="1" name="Type" index="3"/>
+        <attributeEditorContainer visibilityExpression=" &quot;Type&quot;  =  'Group' " showLabel="1" groupBox="0" name="Group Data" visibilityExpressionEnabled="1" columnCount="1">
+          <attributeEditorField showLabel="1" name="Group Size" index="4"/>
+        </attributeEditorContainer>
+        <attributeEditorField showLabel="1" name="Height" index="5"/>
+        <attributeEditorField showLabel="1" name="Tree Management Status" index="6"/>
+        <attributeEditorField showLabel="1" name="Woodland Management Status" index="7"/>
+        <attributeEditorField showLabel="1" name="Location Type" index="8"/>
+        <attributeEditorField showLabel="1" name="Work Recommendations" index="9"/>
+        <attributeEditorField showLabel="1" name="Notes" index="10"/>
+        <attributeEditorField showLabel="1" name="Image" index="11"/>
+      </attributeEditorForm>
+      <editable>
+        <field name="Age" editable="1"/>
+        <field name="Group Size" editable="1"/>
+        <field name="Height" editable="1"/>
+        <field name="Image" editable="1"/>
+        <field name="Location Type" editable="1"/>
+        <field name="Notes" editable="1"/>
+        <field name="Stage" editable="1"/>
+        <field name="Tree Management Status" editable="1"/>
+        <field name="Type" editable="1"/>
+        <field name="Woodland Management Status" editable="1"/>
+        <field name="Work Recommendations" editable="1"/>
+        <field name="fid" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="Age" labelOnTop="0"/>
+        <field name="Group Size" labelOnTop="0"/>
+        <field name="Height" labelOnTop="0"/>
+        <field name="Image" labelOnTop="0"/>
+        <field name="Location Type" labelOnTop="0"/>
+        <field name="Notes" labelOnTop="0"/>
+        <field name="Stage" labelOnTop="0"/>
+        <field name="Tree Management Status" labelOnTop="0"/>
+        <field name="Type" labelOnTop="0"/>
+        <field name="Woodland Management Status" labelOnTop="0"/>
+        <field name="Work Recommendations" labelOnTop="0"/>
+        <field name="fid" labelOnTop="0"/>
+      </labelOnTop>
+      <reuseLastValue>
+        <field reuseLastValue="0" name="Age"/>
+        <field reuseLastValue="0" name="Group Size"/>
+        <field reuseLastValue="0" name="Height"/>
+        <field reuseLastValue="0" name="Image"/>
+        <field reuseLastValue="0" name="Location Type"/>
+        <field reuseLastValue="0" name="Notes"/>
+        <field reuseLastValue="0" name="Stage"/>
+        <field reuseLastValue="0" name="Tree Management Status"/>
+        <field reuseLastValue="0" name="Type"/>
+        <field reuseLastValue="0" name="Woodland Management Status"/>
+        <field reuseLastValue="0" name="Work Recommendations"/>
+        <field reuseLastValue="0" name="fid"/>
+      </reuseLastValue>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression>"Stage"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>
